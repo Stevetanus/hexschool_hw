@@ -132,9 +132,12 @@ table {
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "PingFang TC", "Helvetica Neue", sans-serif;
+}
 
 .wrap {
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 30px 42px;
 }
@@ -206,9 +209,10 @@ navbar {
 .aside li {
   display: flex;
   justify-content: center;
-
+  flex-wrap: nowrap;
   height: 65px;
-  padding: 16px 64px;
+  width: 300px;
+  padding: 16px auto;
 }
 .aside li:nth-child(2) {
   background: #eaf0ed;
@@ -221,15 +225,12 @@ navbar {
 }
 
 .aside a {
-  font: normal normal 600 24px PingFang TC;
+  font: 24px PingFang TC;
+  font-weight: 600;
   color: #3f5d45;
   text-decoration: none;
   align-self: center;
-  height: 33px;
-  padding: 1px 0;
-}
-.aside li:nth-child(2n) a {
-  width: 172px;
+  /*   height: 33px; */
 }
 
 .products {
@@ -276,6 +277,7 @@ navbar {
   border: 1px solid #eaf0ed;
   /* width: 300px; */
   display: flex;
+  color: #3f5d45;
 }
 .name h4 {
   font: normal normal 300 20px/20px PingFang TC;
@@ -301,13 +303,16 @@ navbar {
   border-left: 1px solid #eaf0ed;
 }
 .cart-text {
+  width: 300px;
   background: #eaf0ed 0% 0% no-repeat padding-box;
-  width: 100%;
   text-align: center;
   border: 1px solid #eaf0ed;
-  padding: 15px 89px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font: normal normal 600 24px/20px PingFang TC;
   margin-bottom: 20px;
+  color: #3f5d45;
+  opacity: 1;
 }
 .cart-text h2 {
   padding-top: 4.5px;
