@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  width: 100vw;
+  background-color: aquamarine;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 0.2%;
+}
+.left {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #fff;
+}
+.right img {
+  height: 98.5vh;
+  padding-top: 0.5%;
+}

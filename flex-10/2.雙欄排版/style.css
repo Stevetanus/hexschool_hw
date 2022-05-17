@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+.wrap {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.left,
+.right {
+  width: 49%;
+  background: #288;
+}
+
+.left {
+  position: relative;
+}
+.left img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.right {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+.right p {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.right p:nth-child(1),
+.right p:nth-child(4) {
+  font-size: 1.25rem;
+  color: aquamarine;
+}

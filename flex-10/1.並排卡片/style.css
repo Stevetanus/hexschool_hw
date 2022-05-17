@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+.wrap {
+  background: #288;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.col-4 {
+  width: 32%;
+  border: 1px solid grey;
+  background: #fff;
+}
+.col-4 h1 {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  margin: 0;
+  text-align: center;
+  background: #280;
+}
+.col-4 p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0;
+}
+.col-4 p:nth-child(3) {
+  padding-top: 0%;
+  margin-bottom: 15%;
+}

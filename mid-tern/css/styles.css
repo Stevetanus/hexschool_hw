@@ -311,10 +311,11 @@ navbar {
   padding-bottom: 15px;
   font: normal normal 600 24px/20px PingFang TC;
   margin-bottom: 20px;
-  color: #3f5d45;
   opacity: 1;
 }
-.cart-text h2 {
+.cart-text a {
+  text-decoration: none;
+  color: #3f5d45;
   padding-top: 4.5px;
   padding-bottom: 4.5px;
 }
@@ -358,4 +359,8 @@ footer a {
 .num3 a {
   width: 12px;
   color: #3f5d45;
+}
+
+a:hover {
+  transform: scale(1.1);
 }

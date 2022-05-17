@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.wrap {
+  margin: 0 auto;
+  display: flex;
+}
+
+.side {
+  background-color: #288;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: aqua;
+}
+ul {
+  padding-left: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.main {
+  padding-left: 8%;
+  padding-right: 4%;
+  padding-bottom: 2%;
+}
+
+.picture {
+  display: flex;
+  flex-wrap: wrap;
+}
+.picture img {
+  width: 33%;
+}

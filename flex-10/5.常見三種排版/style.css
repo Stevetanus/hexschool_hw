@@ -1,0 +1,44 @@
+.wrap {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 97.5vw;
+}
+
+.top {
+  display: flex;
+  background-color: #288;
+  justify-content: center;
+}
+.first {
+  display: flex;
+}
+.first img {
+  width: 4vw;
+  height: 4vw;
+  margin-right: 3%;
+}
+
+.middle {
+  display: flex;
+  text-align: center;
+  background-color: #288;
+  margin-top: 1%;
+}
+
+.bottom {
+  margin-top: 1%;
+  background-color: #288;
+}
+.big {
+  display: flex;
+  justify-content: flex-start;
+}
+.big:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.big p {
+  margin-left: 3%;
+}
