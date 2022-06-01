@@ -9,8 +9,9 @@ function lotto() {
     }
     output.push(newNumber);
   }
-  console.log(`第一組號碼: ${output.slice(0, 5)}，特別號是${output[6]}號`);
-  console.log(`第二組號碼: ${output.slice(7, 12)}，特別號是${output[13]}號`);
+  console.log(output);
+  console.log(`第一組號碼: ${output.slice(0, 6)}，特別號是${output[6]}號`);
+  console.log(`第二組號碼: ${output.slice(7, 13)}，特別號是${output[13]}號`);
 }
 
 lotto();
